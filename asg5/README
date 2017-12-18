@@ -1,0 +1,37 @@
+// Matthew Tan
+// mxtan
+// cs104a
+// asg5: README
+
+1) main.cpp -- main function that produces
+   ".str", ".tok", ".ast", ".sym", and ".oil"
+   files for any oc program
+2) scanner.l -- scanner to read in language
+   written in oc
+3) lyutils.cpp -- provided by Professor Mackey
+   and added new_parseroot()
+4) lyutils.h -- provided by Professor Mackey
+   and added new_parseroot()
+5) parser.y -- parser to parse the lexemes
+   of the oc language
+6) astree.cpp -- provided by Professor Mackey
+   added change_sym, modified print
+   added transfer_param, reorder_children,
+   and attribute_string
+7) astree.h -- provided by Professor Mackey
+   added change_sym, modified print
+   added transfer_param, reorder_children,
+   and attribute_string
+8) stringset.cpp -- provided by Professor Mackey
+9) stringset.h -- provided by Professor Mackey
+10) auxlib.cpp -- provided by Professor Mackey
+    by Professor Mackey
+11) auxlib.h -- provided by Professor Mackey
+12) symtable.h -- header for symtable.cpp
+13) symtable.cpp -- a symbol table 
+    representation for an oc progam
+14) emitter.h -- header file for emitter.cpp
+15) emitter.cpp -- converting an oc program
+    to an intermediate language called oil
+15) Makefile -- Makefile for asg5
+16) README -- README for asg5
